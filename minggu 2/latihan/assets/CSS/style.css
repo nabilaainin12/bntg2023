@@ -1,0 +1,56 @@
+h1 {
+  color: brown;
+}
+
+h1 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  background-color: aqua;
+}
+
+span {
+  color: red;
+}
+
+.countainer {
+  box-shadow: 10px 13px 0 -1px rgba(202, 98, 98, 0.66);
+}
+#judul1 {
+  font-weight: 800;
+  color: aquamarine;
+  text-dekoration: underline;
+}
+#judul2 {
+  font-weight: 800;
+  color: chocolate;
+}
+.content {
+  background-color: darkolivegreen;
+}
+
+.box {
+  background-color: coral;
+  widht: 100px;
+  height: 100px;
+}
+
+.box a {
+  color: cornsilk;
+  font-size: 30px;
+}
+
+.box:hhover {
+  background-color: black;
+}
+
+/* .box a:hover {
+    color: aqua;
+}    */
+
+.box:hover > a {
+  color: aqua;
+}

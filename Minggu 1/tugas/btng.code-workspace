@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../btng"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "btng"
+  }
+}

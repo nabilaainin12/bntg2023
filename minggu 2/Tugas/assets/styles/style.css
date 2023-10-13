@@ -1,0 +1,175 @@
+:root {
+  --deepblue: #00b4d8;
+  --skyblue: #caf0f8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.countainer {
+  margin-inline: 100px;
+}
+
+nav {
+  background-color: #00b4d8;
+  color: #fff;
+  padding-block: 18px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 #000;
+}
+
+nav .countainer {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  margin-inline: 10px;
+  font-size: 18px;
+}
+
+#home {
+  background-color: #98eafb;
+  text-align: center;
+  padding-block: 100px;
+  padding-top: 100px;
+}
+
+#home img {
+  width: 200px;
+  border-radius: 100%;
+  border: solid 1px #00b4d8;
+}
+
+#home h1 {
+  font-size: 40px;
+  margin-block: 10px;
+}
+
+#home h4 {
+  font-size: 25px;
+  font-weight: 200px;
+}
+
+section {
+  padding-block: 70px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  margin-block: 40px;
+  margin-bottom: 40px;
+}
+
+#about p {
+  font-size: 20px;
+  text-align: center;
+  padding-inline: 250px;
+}
+
+#product {
+  background-color: #98eafb;
+}
+
+.card-countainer {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #000000;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.sosmed .box-countainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sosmed .box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border: solid 1px #000;
+  border-radius: 10px;
+  width: 200px;
+  padding: 20px;
+}
+
+.sosmed .box:hover {
+  background-color: skyblue;
+}
+
+.sosmed .boxp {
+  font-size: 20px;
+}
+.sosmed img {
+  width: 40px;
+}
+
+#contact form {
+  padding-inline: 300px;
+}
+
+#contact input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: solid 1px #000;
+  margin-bottom: 10px;
+}
+
+#contact label {
+  font-weight: 600;
+}
+
+#contact textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: solid 1px #000;
+  margin-top: 10px;
+  resize: none;
+  padding: 12px;
+}
+
+#contact button {
+  display: block;
+  margin-inline: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: solid 1px #000;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #00b4d8;
+  color: #fff;
+  padding: 20px;
+}
